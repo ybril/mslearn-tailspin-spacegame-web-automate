@@ -171,7 +171,6 @@
                 ],
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_tailspin_space_game_asp_name'))]",
                 "reserved": false,
-                "scmSiteAlsoStopped": false,
                 "clientAffinityEnabled": true,
                 "clientCertEnabled": false,
                 "hostNamesDisabled": false,
@@ -208,7 +207,7 @@
                     "type": "SQLAzure"
                     }
                 ],
-                "netFrameworkVersion": "v4.0",
+                "netFrameworkVersion": "v4.6",
                 "phpVersion": "5.6",
                 "pythonVersion": "",
                 "nodeVersion": "",
@@ -229,8 +228,7 @@
                     {
                         "virtualPath": "/",
                         "physicalPath": "site\\wwwroot",
-                        "preloadEnabled": false,
-                        "virtualDirectories": null
+                        "preloadEnabled": false
                     }
                 ],
                 "winAuthAdminState": 0,
@@ -270,7 +268,6 @@
                     "microsoftAccountClientSecret": null,
                     "microsoftAccountOAuthScopes": null
                 },
-                "localMySqlEnabled": false,
                 "http20Enabled": true,
                 "minTlsVersion": "1.2",
                 "ftpsState": "AllAllowed",
