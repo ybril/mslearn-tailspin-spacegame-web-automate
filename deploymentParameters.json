@@ -12,19 +12,11 @@
             "value": "6495"
         },
         "adminPassword": {
-            "reference": {
-              "keyVault": {
-                "id": "/subscriptions/80ca923f-fa8c-496d-81ca-4d5798c1ab3a/resourceGroups/tailspin-spacegame-web-rg/providers/Microsoft.KeyVault/vaults/tailspin-vault-27640"
-              },
-              "secretName": "adminPassword"
+            "value": "inysE3CdNhqpTv2aHQgGkPDR4Qi5A6n+rxSjRnGXdfk="
             }
         },
         "firstRun": {
-            "reference": {
-                "keyVault": {
-                    "id": "/subscriptions/80ca923f-fa8c-496d-81ca-4d5798c1ab3a/resourceGroups/tailspin-spacegame-web-rg/providers/Microsoft.KeyVault/vaults/tailspin-vault-27640"
-                },
-                "secretName": "firstRun"
+            "value": "true"
             }
         }
     }
