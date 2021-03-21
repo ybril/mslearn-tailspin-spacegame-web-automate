@@ -13,11 +13,9 @@
         },
         "adminPassword": {
             "value": "inysE3CdNhqpTv2aHQgGkPDR4Qi5A6n+rxSjRnGXdfk="
-            }
         },
         "firstRun": {
-            "value": "true"
-            }
+           "value": "true"
         }
     }
 }
